@@ -1,0 +1,59 @@
+.container{
+  width: 100%;
+  height: 100%;
+  outline: 0px;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 200px auto ;
+  grid-template-rows: 650px 50px;
+}
+.Sidebar{
+  background: #34302D;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Main{
+  min-width: 200px;
+  overflow: hidden;
+}
+svg{
+  background: #7ec0ee;
+  width: 100%;
+  height:100%;
+}
+.documentation{
+  padding-left: 50px;
+  padding-right: 250px;
+}
+.Footer {
+  grid-column: 1/3;
+}
+
+text{
+  font-family: 'Poppins';
+}
+button{
+  height: 40px;
+  border-width: 0px;
+  background-color: #34302D;
+  color: grey;
+  font-family: 'Poppins';
+  font-size: 60%;
+}
+button:focus {
+  outline:0;
+}
+
+#btn0{
+  color: #fd5c63;
+  text-decoration: underline;
+}
+#face:hover{
+  fill: #fd5c63;
+}
+#pshBtn:hover{
+  fill: #ec4b52;
+}
