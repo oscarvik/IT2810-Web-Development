@@ -1,3 +1,5 @@
+During this project i made my first website, and first lines of code in both javascript and HTML. 
+I've had some previous experience with FXML and CSS through TDT4140. 
 ## Project description (Norwegian) ##
 
 I denne oppgaven skal du lage en webside hvor du presenterer et selvlaget abstrakt interaktivt «kunstverk». Vi tenker her på en figur av 2D-objekter som kan etterligne noe eller være abstrakt (sirkler og firkanter av forskjellig størrelse som du forsøker å sette sammen til noe som kanskje ser estetisk eller morsomt ut). Målet med oppgaven er at du skal lære det som er beskrevet i læringsmålene.
