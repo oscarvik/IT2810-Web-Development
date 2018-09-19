@@ -1,20 +1,20 @@
 [
   {
-  "id": 145,
+  "category": "green",
   "name": "green image 1",
   "imageUrl": "src/img/greenImg1.jpeg",
   "text": "",
   "sound": ""
 },
 {
-  "id": 145,
+  "category": "green",
   "name": "green image 2",
   "imageUrl": "src/img/greenImg2.jpeg",
   "text": "",
   "sound": ""
 },
 {
-  "id": 145,
+  "category": "green",
   "name": "green image 3",
   "imageUrl": "src/img/greenImg2.jpeg",
   "text": "",
