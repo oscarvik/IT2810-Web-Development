@@ -1,22 +1,22 @@
 [
   {
   "category": "green",
-  "name": "green image 1",
+  "name": "1-green",
   "imageUrl": "img/greenImg1.jpeg",
   "text": "",
   "sound": ""
 },
 {
   "category": "green",
-  "name": "green image 2",
-  "imageUrl": "./img/greenImg2.jpeg",
+  "name": "2-green",
+  "imageUrl": "img/greenImg2.jpeg",
   "text": "",
   "sound": ""
 },
 {
   "category": "green",
-  "name": "green image 3",
-  "imageUrl": "./img/greenImg2.jpeg",
+  "name": "3-green",
+  "imageUrl": "img/greenImg2.jpeg",
   "text": "",
   "sound": ""
 }
