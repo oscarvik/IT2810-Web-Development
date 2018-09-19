@@ -3,21 +3,21 @@
   "id": 145,
   "name": "green image 1",
   "imageUrl": "src/img/greenImg1.jpeg",
-  "text": null,
-  "sound": null,
+  "text": "",
+  "sound": "",
 },
 {
   "id": 145,
   "name": "green image 1",
   "imageUrl": "src/img/greenImg2.jpeg",
-  "text": null,
-  "sound": null,
+  "text": "",
+  "sound": "",
 },
 {
   "id": 145,
   "name": "green image 1",
   "imageUrl": "src/img/greenImg2.jpeg",
-  "text": null,
-  "sound": null,
+  "text": "",
+  "sound": "",
 }
 ]
