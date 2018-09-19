@@ -5,7 +5,6 @@
   "imageUrl": "src/img/greenImg1.jpeg",
   "text": null,
   "sound": null,
-
 },
 {
   "id": 145,
@@ -13,7 +12,6 @@
   "imageUrl": "src/img/greenImg2.jpeg",
   "text": null,
   "sound": null,
-
 },
 {
   "id": 145,
@@ -21,6 +19,5 @@
   "imageUrl": "src/img/greenImg2.jpeg",
   "text": null,
   "sound": null,
-
 }
 ]
