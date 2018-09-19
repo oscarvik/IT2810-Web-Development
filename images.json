@@ -2,7 +2,7 @@
   {
   "category": "green",
   "name": "green image 1",
-  "imageUrl": "./img/greenImg1.jpeg",
+  "imageUrl": "img/greenImg1.jpeg",
   "text": "",
   "sound": ""
 },
