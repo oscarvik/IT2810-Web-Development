@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #40464b;
+}
+.page_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+}
+.header {
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 10px;
+    color: white;
+    animation: shake 0.6s;
+    animation-iteration-count: infinite;
+}
+
+.categories{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.category{
+  display:block;
+  margin: auto;
+  margin-top: 0px;
+  color: white;
+}
+
+.item_list {
+    height: 40px;
+    width: 100vw;
+    background-image: linear-gradient(#40464b,#40464b,white, white);
+    display: flex;
+
+}
+
+.item {
+    margin: 1px;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    align-content: flex-end;
+    text-align: center;
+    cursor: pointer;
+    background-image: linear-gradient(#40464b,#3a3a3a);
+    color: white;
+}
+
+.item:hover{
+    background-image: linear-gradient(#40464b,#40464b,white) !important;
+
+}
+.showroom_container{
+  width: 100vw;
+    min-height: calc(100vh - 220px);
+    border-radius: 4px;
+  background: #40464b;
+  display: flex;
+}
+
+.showroom {
+    width: 95vw;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    bottom: 0;
+
+}
+.showroom_image{
+  margin-top: 10px;
+  width: 55vw;
+  max-height: 350px;
+}
+#Capa_1{
+  width: 50vw;
+  height: 50vw;
+  max-height: 350px;
+  display: block;
+  margin: 40px auto;
+}
+.showroom_text_container{
+  margin-top: 40px;
+  width: 40vw;
+}
+.showroom_text{
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px){
+  .showroom_image{
+    width: 95vw;
+  }
+  #Capa_1{
+    width: 95vw;
+  }
+  .showroom_text_container{
+    width: 95vw;
+  }
+  .showroom_text{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .header {
+      font-size: 7vw;
+  }
+}
+
+#showroom_audio_container{
+  display: none;
+
+}
+.showroom_audio{
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@keyframes shake {
+
+    0% {transform: translate(1px, 1px) rotate(0deg);}
+    10% { transform: translate(-1px, -1px) rotate(-0.5deg);}
+    20% { transform: translate(0px, 0px) rotate(0deg); }
+    30% { transform: translate(0px, 1px) rotate(0.5deg);}
+    40% { transform: translate(1px, 0px) rotate(0deg); }
+    50% { transform: translate(-1px, 1px) rotate(-0.5deg);}
+    60% { transform: translate(0px, 1px) rotate(0deg);}
+    70% { transform: translate(1px, 0px) rotate(0.5deg); }
+    80% { transform: translate(-1px, -1px) rotate(0deg); }
+    90% { transform: translate(1px, 1px) rotate(-0.5deg); }
+    100% {transform: translate(1px, 0px) rotate(0deg);}
+}
