@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapScreen renders correctly 1`] = `
+<View
+  accessible={false}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#95abaf",
+        "flex": 1,
+        "flexDirection": "row",
+        "left": 0,
+        "paddingBottom": 10,
+        "paddingTop": 30,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 0.2,
+          "marginLeft": 10,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../assets/headerIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": 37,
+            "width": 52,
+          }
+        }
+      />
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Search for snusbrother"
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "gray",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "flex": 0.7,
+          "height": 40,
+          "marginLeft": 10,
+          "paddingLeft": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <ActivityIndicator
+    accessible={false}
+    animating={true}
+    color="#0000ff"
+    hidesWhenStopped={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    size="large"
+  />
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "zIndex": 3,
+      }
+    }
+  >
+    <View />
+  </View>
+</View>
+`;

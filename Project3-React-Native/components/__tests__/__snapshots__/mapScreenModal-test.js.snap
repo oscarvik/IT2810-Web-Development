@@ -1,0 +1,557 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#a0b4b7",
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "opacity": 0.95,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#fdfcaa",
+        "fontSize": 20,
+        "marginTop": 15,
+        "textAlign": "center",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.3,
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "marginBottom": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        Type
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "padding": "2%",
+            "width": "90%",
+          }
+        }
+      >
+        -
+      </Text>
+      <Modal
+        animationType="slide"
+        hardwareAccelerated={false}
+        onDismiss={[Function]}
+        onRequestClose={[Function]}
+        transparent={true}
+        visible={false}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 466.9,
+              }
+            }
+          >
+            <View
+              accessibilityComponentType="button"
+              accessibilityTraits={
+                Array [
+                  "button",
+                ]
+              }
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007AFF",
+                        "fontSize": 18,
+                        "padding": 8,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  OK
+                </Text>
+              </View>
+            </View>
+            <View>
+              <RCTPicker
+                items={
+                  Array [
+                    Object {
+                      "label": "G3,G4",
+                      "textColor": undefined,
+                      "value": "G3,G4",
+                    },
+                  ]
+                }
+                onChange={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                selectedIndex={0}
+                style={
+                  Array [
+                    Object {
+                      "height": 216,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </Modal>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.3,
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "marginBottom": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        Antall
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "padding": "2%",
+            "width": "90%",
+          }
+        }
+      >
+        1
+      </Text>
+      <Modal
+        animationType="slide"
+        hardwareAccelerated={false}
+        onDismiss={[Function]}
+        onRequestClose={[Function]}
+        transparent={true}
+        visible={false}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 466.9,
+              }
+            }
+          >
+            <View
+              accessibilityComponentType="button"
+              accessibilityTraits={
+                Array [
+                  "button",
+                ]
+              }
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007AFF",
+                        "fontSize": 18,
+                        "padding": 8,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  OK
+                </Text>
+              </View>
+            </View>
+            <View>
+              <RCTPicker
+                items={
+                  Array [
+                    Object {
+                      "label": "0",
+                      "textColor": undefined,
+                      "value": "0",
+                    },
+                    Object {
+                      "label": "1",
+                      "textColor": undefined,
+                      "value": "1",
+                    },
+                    Object {
+                      "label": "2",
+                      "textColor": undefined,
+                      "value": "2",
+                    },
+                    Object {
+                      "label": "3",
+                      "textColor": undefined,
+                      "value": "3",
+                    },
+                    Object {
+                      "label": "4",
+                      "textColor": undefined,
+                      "value": "4",
+                    },
+                    Object {
+                      "label": "5",
+                      "textColor": undefined,
+                      "value": "5",
+                    },
+                    Object {
+                      "label": "6",
+                      "textColor": undefined,
+                      "value": "6",
+                    },
+                    Object {
+                      "label": "7",
+                      "textColor": undefined,
+                      "value": "7",
+                    },
+                    Object {
+                      "label": "8",
+                      "textColor": undefined,
+                      "value": "8",
+                    },
+                    Object {
+                      "label": "9",
+                      "textColor": undefined,
+                      "value": "9",
+                    },
+                    Object {
+                      "label": "10",
+                      "textColor": undefined,
+                      "value": "10",
+                    },
+                  ]
+                }
+                onChange={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                selectedIndex={1}
+                style={
+                  Array [
+                    Object {
+                      "height": 216,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </Modal>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.3,
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "marginBottom": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        Dato
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "padding": "2%",
+            "width": "90%",
+          }
+        }
+      >
+        12/17/2017
+      </Text>
+      <Modal
+        animationType="slide"
+        hardwareAccelerated={false}
+        onDismiss={[Function]}
+        onRequestClose={[Function]}
+        transparent={true}
+        visible={false}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 466.9,
+              }
+            }
+          >
+            <View
+              accessibilityComponentType="button"
+              accessibilityTraits={
+                Array [
+                  "button",
+                ]
+              }
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#007AFF",
+                        "fontSize": 18,
+                        "padding": 8,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  OK
+                </Text>
+              </View>
+            </View>
+            <View>
+              <RCTDatePicker
+                date={1513477440000}
+                mode="datetime"
+                onChange={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "height": 216,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </Modal>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#fdfcaa",
+        "borderRadius": 4,
+        "marginBottom": 5,
+        "width": 150,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType="button"
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#a0b4b7",
+              },
+            ]
+          }
+        >
+          BOM SNUS
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

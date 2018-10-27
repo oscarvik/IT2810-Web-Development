@@ -1,0 +1,52 @@
+{
+  "brothers": {
+    "1": {
+      "name": "General Lover",
+      "latlng": {
+        "latitude": 63.41927,
+        "longitude": 10.40206
+      },
+      "snus": ["Skruf", "General", "Mokka"]
+    },
+    "2": {
+      "name": "Skruf lover",
+      "latlng": {
+        "latitude": 63.43,
+        "longitude": 10.46
+      },
+      "snus": ["Hubba bubba", "Thunder", "O6"]
+    },
+    "3": {
+      "name": "Georg",
+      "latlng": {
+        "latitude": 63.4,
+        "longitude": 10.49
+      },
+      "snus": ["Mokka", "Skruf", "O2", "General"]
+    },
+    "4": {
+      "name": "02",
+      "latlng": {
+        "latitude": 63.43,
+        "longitude": 10.5
+      },
+      "snus": ["Skruf", "General", "Nick and johnny"]
+    },
+    "5": {
+      "name": "Theodor",
+      "latlng": {
+        "latitude": 63.46,
+        "longitude": 10.5021
+      },
+      "snus": ["06", "G1", "03"]
+    },
+    "6": {
+      "name": "Skruferud",
+      "latlng": {
+        "latitude": 63.38,
+        "longitude": 10.52
+      },
+      "snus": ["Snuserud", "G3", "Skruf slim"]
+    }
+  }
+}
