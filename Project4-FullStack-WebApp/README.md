@@ -1,10 +1,16 @@
 # Project 4 - MovieBase
 <img src="./assets/MovieBase_home.png"  width="750" height="450">  
 
-## Intro
+### Intro
 ’Movie DataBase’ is, as the name implies, a movie database on the Web.
 We offer a searchable catalogue of more than 19.000 movies. Search for your favorite movie by title, or for movies in a specific genre.
 The result can be sorted by title, year, rating, popularity or votes, you decide. We also offer the ability to sign up and create a perfect list of all your favorite movies.
+
+### Planning
+After discussing the assignment and brainstorming for ideas, we decided to create a low-level prototype of how we wanted the apperance and functionality to be.
+This was done using Balsamiq, and allowed us to design website using pre-built widgets and a drag-and-drop WYSIWYG editor. Here is the final prototype:
+
+<img src="./assets/Prototype.png"  width="500" height="300">  
 
 ## Getting started
 These instructions will show how to get the project up and running on your local machine, for development and testing purposes.
@@ -18,12 +24,6 @@ You can start the server and client concurrently by running npm run dev.
 ```
 $ npm run dev
 ```
-
-## Planning
-After discussing the assignment and brainstorming for ideas, we decided to create a low-level prototype of how we wanted the apperance and functionality to be.
-This was done using Balsamiq, and allowed us to design website using pre-built widgets and a drag-and-drop WYSIWYG editor. Here is the final prototype:
-
-<img src="./assets/Prototype.png"  width="500" height="300">  
 
 # Content and Functionality
 
