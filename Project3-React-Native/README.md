@@ -1,4 +1,4 @@
-## Intro
+# Project 3 - SNUSBROTHERS
 Snus.
 We have all tried it, and we all love it. It’s the life and core of how every Scandinavian youth get through their day. 
 But snus comes with one terrible catch. NOT HAVING MORE SNUS.
