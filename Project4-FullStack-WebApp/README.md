@@ -1,4 +1,5 @@
-# Content and Functionality
+# Project 4 - MovieBase
+<img src="./assets/MovieBase_home.png"  width="750" height="450">  
 
 ## Intro
 ’Movie DataBase’ is, as the name implies, a movie database on the Web.
@@ -10,6 +11,8 @@ After discussing the assignment and brainstorming for ideas, we decided to creat
 This was done using Balsamiq, and allowed us to design website using pre-built widgets and a drag-and-drop WYSIWYG editor. Here is the final prototype:
 
 <img src="./assets/Prototype.png"  width="500" height="300">  
+
+# Content and Functionality
 
 ## Client
 For our front end application we have used React together with Redux to manage application state. For navigation
