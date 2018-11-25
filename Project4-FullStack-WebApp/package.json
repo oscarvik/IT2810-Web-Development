@@ -1,0 +1,47 @@
+{
+  "name": "gruppe41",
+  "version": "1.0.0",
+  "description": "Movie list and user favorites",
+  "homepage": "it2810-41.idi.ntnu.no",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "test:server": "jest __tests__",
+    "test:client": "npm test --prefix client",
+    "test:cypress_run": "npm run dev & npm run cypress:run --prefix client",
+    "test:cypress_browser": "npm run dev & npm run cypress:browser --prefix client",
+    "test": "npm run test:server && npm run test:cypress_run  && npm run test:client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5",
+    "react-test-renderer": "^16.6.1",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  }
+}
