@@ -20,9 +20,9 @@
 }
 .Main{
   height: calc(100vh - 50px);
-  width: 100%;
 }
 svg{
+  display: block;
   background: #7ec0ee;
   height: 100%;
   width: 100%
@@ -81,7 +81,7 @@ button:focus {
   }
   .Sidebar{
     width: 100vw;
-    height: 160px;
+    height: 165px;
   }
   .sidebarList{
     display: flex;
@@ -90,8 +90,12 @@ button:focus {
   }
   .Main{
     width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  svg{
     height: calc(100vh - 160px - 50px );
-    overflow: hidden;
   }
   .Footer{
     width: 100vw;
