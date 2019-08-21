@@ -1,38 +1,50 @@
 .container{
-  width: 100%;
-  height: 100%;
-  outline: 0%;
-  margin: 0%;
+  outline: 0;
+  margin: 0;
   padding: 0px;
   display: grid;
   grid-gap: 0px;
-  grid-template-columns: 20% auto ;
-  grid-template-rows: 650px 50px;
+  grid-template-columns: 25% auto ;
+  grid-template-rows: calc(100vh - 50px) 50px;
 }
 .Sidebar{
-  min-width: 150px;
-  max-width: 350px;
   background: #34302D;
   display: flex;
   flex-direction: column;
   text-align: center;
-  overflow-x: scroll;
+}
+.sidebarList{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .Main{
-  min-width: 250px;
-  overflow: hidden;
+  height: calc(100vh - 50px);
+  width: 100%;
 }
 svg{
   background: #7ec0ee;
-  width: 100%;
-  height:100%;
+  height: 100%;
+  width: 100%
 }
 .documentation{
+  display: none;
   padding-left: 10%;
   padding-right: 15%;
 }
+.docImg{
+  padding: 0 !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .Footer {
   grid-column: 1/3;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem;
+  background: #34302D;
+  color: white;
 }
 
 text{
@@ -52,11 +64,37 @@ button:focus {
 
 #btn0{
   color: #fd5c63;
-  text-decoration: underline;
 }
 #face:hover{
   fill: #fd5c63;
 }
 #pshBtn:hover{
   fill: #ec4b52;
+}
+
+@media (max-width: 768px) {
+  body{font-size: 16px;}
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Sidebar{
+    width: 100vw;
+    height: 160px;
+  }
+  .sidebarList{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Main{
+    width: 100vw;
+    height: calc(100vh - 160px - 50px );
+    overflow: hidden;
+  }
+  .Footer{
+    width: 100vw;
+    height: 50px;
+  }
 }

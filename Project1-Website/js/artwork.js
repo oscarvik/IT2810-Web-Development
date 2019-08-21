@@ -57,14 +57,14 @@ for(var i = 0; i < jetBubbles.length; i++){
 //This function provides feedback when the 'FEED' button is pressed.
 $(".pushButton").click(function(){
   TweenMax.to($(food), 0.5,{
-    x:'-=810',
+    x:'-=710',
     repeat:10,
     yoyo:false
   })
   setTimeout(function(){
-    TweenMax.to(mouth, 0.25, {attr: {points:"200,260 295,260 295,260"}, repeat:21, yoyo:true})
+    TweenMax.to(mouth, 0.25, {attr: {points:"300,260 395,260 395,260"}, repeat:21, yoyo:true})
   },200)
-  TweenMax.to(mouth, 0.5, {attr: {points:"200,260 295,230 295,290"}, ease:Elastic.easeOut, repeat:0, yoyo:true})
+  TweenMax.to(mouth, 0.5, {attr: {points:"300,260 395,230 395,290"}, ease:Elastic.easeOut, repeat:0, yoyo:true})
   setTimeout(function(){
     TweenMax.to($(food), 0.001,{
       x:'=1000',
@@ -76,9 +76,9 @@ $(".pushButton").click(function(){
 //Provides feedback when Packman is clicked on
 $(Packman).click(function(){
     setTimeout(function(){
-      TweenMax.to(mouth, 0.5, {attr: {points:"200,260 295,260 295,260"}, ease:Elastic.easeOut, repeat:1, yoyo:true})
+      TweenMax.to(mouth, 0.5, {attr: {points:"300,260 395,260 395,260"}, ease:Elastic.easeOut, repeat:1, yoyo:true})
     },100)
-    TweenMax.to(mouth, 0.5, {attr: {points:"200,260 295,230 295,290"}, ease:Elastic.easeOut, repeat:0, yoyo:true})
+    TweenMax.to(mouth, 0.5, {attr: {points:"300,260 395,230 395,290"}, ease:Elastic.easeOut, repeat:0, yoyo:true})
 });
 //Enlarges the title of the artwork when mouse is hovering over
 $("#title").on({"mouseenter": function () {
